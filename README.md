@@ -1,5 +1,5 @@
 # Stack based backtracking N queen solver
-## Alekla: Alejandro Lagunes
+## Alejandro Lagunes
 
 [![J|Java](https://skillicons.dev/icons?i=java)]()
 [![Production](https://skillicons.dev/icons?i=idea)]()
@@ -28,7 +28,7 @@ Java compiler 1.8+ [Java 1.8](https://www.oracle.com/java/technologies/javase/ja
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-git clone repo
+git clone git@github.com:Alekla0126/N_queen.git
 cd N_queens/src/
 ```
 
@@ -37,7 +37,7 @@ cd N_queens/src/
 Want to contribute? Great!
 
 ```sh
-git clone repo
+cd path/to/N_queens/src/
 ```
 Run it with:
 
