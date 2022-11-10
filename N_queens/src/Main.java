@@ -49,8 +49,11 @@ class Main
             
          }
          // ------------------------------------------------------------------------------------------------------------
+         long startTime = System.nanoTime();
          Solver s = new Solver();
          s.findSolutions(gameSize);
+         long stopTime = System.nanoTime();
+         System.out.println((stopTime - startTime)/1000000);
          System.out.print("\nWould you like to compute another solution (Y/N)? ");
          findMore = in.next();
          // ------------------------------------------------------------------------------------------------------------
